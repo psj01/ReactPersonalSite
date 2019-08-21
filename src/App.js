@@ -1,24 +1,185 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./jobinPic.jpg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+
+        <code>Jobin Scaria</code>
+        <div className="App-msg">So Much to Learn, So Little Time</div>
+        <div>
+          <a
+            className="App-link"
+            href="https://psj01.github.io/JobinScaria_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>{" "}
+          |{" "}
+          <a className="App-link" href="#projects" rel="noopener noreferrer">
+            Projects
+          </a>{" "}
+          |{" "}
+          <a className="App-link" href="#connect" rel="noopener noreferrer">
+            {" "}
+            Connect
+          </a>
+        </div>
+      </header>
+      <div className="App-projects" id="projects">
+        <section className="section-projects">
+          <ul className="projects-showcase clearfix">
+            <li>
+              <figure className="proj-desc">
+                <h5>OShop</h5>
+                <p>
+                  An organic shop designed and developed with Angular and
+                  Firebase.
+                </p>
+                <a href="https://oshop-42fc1.firebaseapp.com/">view app</a>
+              </figure>
+            </li>
+            <li>
+              <figure className="proj-desc">
+                <h5>US citizenship exam challenge - New</h5>
+                <p>
+                  This app was created as part of learning javascript and html.
+                </p>
+                <a href="http://psj01.github.io/n400Exam/">view app</a>
+              </figure>
+            </li>
+            <li>
+              <figure className="proj-desc">
+                <h5>Omni Foods</h5>
+                <p>
+                  Omni Foods designed and created for the course "Design and
+                  Develop a Killer Website Using HTML5 and CSS3".
+                </p>
+                <a href="http://psj01.github.io/omnifood/">view app</a>
+              </figure>
+            </li>
+            <li>
+              <figure className="proj-desc">
+                <h5>Pig Game</h5>
+                <p>
+                  This is a fun game designed and developed using javascript,
+                  html and css.
+                </p>
+                <a href="http://psj01.github.io/pigGame/">view app</a>
+              </figure>
+            </li>
+          </ul>
+          <ul className="projects-showcase clearfix">
+            <li>
+              <figure className="proj-desc">
+                <h5>Budget App</h5>
+                <p>
+                  This app was created as part of a complete javascript course
+                  on Udemy.
+                </p>
+                <a href="http://psj01.github.io/budgetApp/">view app</a>
+              </figure>
+            </li>
+            <li>
+              <figure className="proj-desc">
+                <h5>US citizenship exam challenge - old version</h5>
+                <p>
+                  This app was created as part of learning javascript and html.
+                  - this is an older version of it.
+                </p>
+                <a href="http://psj01.github.io/n400Exam_OldVersion/">
+                  view app
+                </a>
+              </figure>
+            </li>
+            <li>
+              <figure className="proj-desc">
+                <h5>NIU student page</h5>
+                <p>My student page while I was at NIU.</p>
+                <a href="http://students.cs.niu.edu/~z1262764/">view app</a>
+              </figure>
+            </li>
+            <li>
+              <figure className="proj-desc">
+                <h5>To Do List</h5>
+                <p>This app was created while learning angularJS.</p>
+                <a href="http://psj01.github.io/toDoList/">view app</a>
+              </figure>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div className="App-connect" id="connect">
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://www.linkedin.com/pub/jobin-scaria/12/84b/4a0"
+          id="linkedIn"
           target="_blank"
+          className="social-btn"
           rel="noopener noreferrer"
         >
-          Learn React
+          <i className="fa fa-linkedin fa-lg" />
+          LinkedIn
+        </a>{" "}
+        |{" "}
+        <a
+          href="https://github.com/psj01"
+          id="github"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-btn"
+        >
+          <i className="fa fa-github fa-lg" />
+          GitHub
+        </a>{" "}
+        |{" "}
+        <a
+          href="https://stackoverflow.com/users/3377344/psj01"
+          id="stackOverflow"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-btn"
+        >
+          <i className="fa fa-stack-overflow fa-lg" />
+          Stack Overflow
+        </a>{" "}
+        |{" "}
+        <a
+          href="https://medium.com/@psjobin"
+          id="medium"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-btn"
+        >
+          <i className="fa fa-medium fa-lg" />
+          Medium
+        </a>{" "}
+        |{" "}
+        <a
+          href="https://codepen.io/psj01/"
+          id="codepen"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-btn"
+        >
+          <i className="fa fa-codepen fa-lg" />
+          Codepen
+        </a>{" "}
+        |{" "}
+        <a
+          href="https://instagram.com/psjobin"
+          id="instagram"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-btn"
+        >
+          <i className="fa fa-instagram fa-lg" />
+          Instagram
         </a>
-      </header>
+      </div>
     </div>
   );
 }
