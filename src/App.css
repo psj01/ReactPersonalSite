@@ -95,5 +95,8 @@
 }
 
 .App-connect {
-  text-align: left;
+  padding-top: 100px;
+  font-size: 12px;
+  text-align: center;
+  height: 400px;
 }

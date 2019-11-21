@@ -29,6 +29,7 @@ function App() {
             Connect
           </a>
         </div>
+        <div style={{ fontSize: "75px" }}>👨‍💻</div>
       </header>
       <div className="App-projects" id="projects">
         <section className="section-projects">
@@ -148,17 +149,6 @@ function App() {
         </a>{" "}
         |{" "}
         <a
-          href="https://medium.com/@psjobin"
-          id="medium"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="social-btn"
-        >
-          <i className="fa fa-medium fa-lg" />
-          Medium
-        </a>{" "}
-        |{" "}
-        <a
           href="https://codepen.io/psj01/"
           id="codepen"
           target="_blank"
@@ -167,18 +157,20 @@ function App() {
         >
           <i className="fa fa-codepen fa-lg" />
           Codepen
-        </a>{" "}
-        |{" "}
-        <a
-          href="https://instagram.com/psjobin"
-          id="instagram"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="social-btn"
-        >
-          <i className="fa fa-instagram fa-lg" />
-          Instagram
         </a>
+        <br />
+        <br />
+        <br />
+        <code>
+          Made with <span style={{ color: "red" }}>&#x2665;</span>
+        </code>
+        <br />
+        <br />
+        <br />
+        <code style={{ fontSize: "50px" }}>
+          🚶
+          <span style={{ fontSize: "20px" }}>🐕</span>
+        </code>
       </div>
     </div>
   );
